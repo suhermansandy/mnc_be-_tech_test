@@ -1,0 +1,81 @@
+2021/10/16 13:13:39 app.go:35: API Init
+2021/10/16 13:13:40 app.go:40: Could not connect database
+2021/10/16 13:13:40 app.go:41: pq: database "test" does not exist
+2021/10/16 13:14:21 app.go:35: API Init
+2021/10/16 13:14:21 app.go:48: Could not connect database
+2021/10/16 13:14:21 app.go:49: pq: database "test-mock" does not exist
+2021/10/16 13:14:40 app.go:35: API Init
+2021/10/16 13:14:43 app.go:58: Could not connect artemis
+2021/10/16 13:14:43 app.go:59: dial tcp [::1]:61613: connectex: No connection could be made because the target machine actively refused it.
+2021/10/16 13:14:43 app.go:66: Init finished in  2.6358377s
+2021/10/16 13:14:43 app.go:67: API Ready
+2021/10/16 13:21:54 app.go:35: API Init
+2021/10/16 13:21:57 app.go:58: Could not connect artemis
+2021/10/16 13:21:57 app.go:59: dial tcp [::1]:61613: connectex: No connection could be made because the target machine actively refused it.
+2021/10/16 13:21:57 app.go:66: Init finished in  2.8118569s
+2021/10/16 13:21:57 app.go:67: API Ready
+2021/10/16 13:23:55 app.go:35: API Init
+2021/10/16 13:23:58 app.go:58: Could not connect artemis
+2021/10/16 13:23:58 app.go:59: dial tcp [::1]:61613: connectex: No connection could be made because the target machine actively refused it.
+2021/10/16 13:23:58 app.go:66: Init finished in  2.7839827s
+2021/10/16 13:23:58 app.go:67: API Ready
+2021/10/16 13:25:45 app.go:35: API Init
+2021/10/16 13:25:48 app.go:58: Could not connect artemis
+2021/10/16 13:25:48 app.go:59: dial tcp [::1]:61613: connectex: No connection could be made because the target machine actively refused it.
+2021/10/16 13:25:48 app.go:66: Init finished in  2.680465s
+2021/10/16 13:25:48 app.go:67: API Ready
+2021/10/16 13:29:28 app.go:35: API Init
+2021/10/16 13:29:30 app.go:58: Could not connect artemis
+2021/10/16 13:29:30 app.go:59: dial tcp [::1]:61613: connectex: No connection could be made because the target machine actively refused it.
+2021/10/16 13:29:30 app.go:66: Init finished in  2.6998274s
+2021/10/16 13:29:30 app.go:67: API Ready
+2021/10/16 13:55:35 app.go:35: API Init
+2021/10/16 13:55:38 app.go:58: Could not connect artemis
+2021/10/16 13:55:38 app.go:59: dial tcp [::1]:61613: connectex: No connection could be made because the target machine actively refused it.
+2021/10/16 13:55:38 app.go:66: Init finished in  2.9970657s
+2021/10/16 13:55:38 app.go:67: API Ready
+2021/10/17 10:23:52 app.go:35: API Init
+2021/10/17 10:23:55 app.go:58: Could not connect artemis
+2021/10/17 10:23:55 app.go:59: dial tcp [::1]:61613: connectex: No connection could be made because the target machine actively refused it.
+2021/10/17 10:23:55 app.go:66: Init finished in  2.8658956s
+2021/10/17 10:23:55 app.go:67: API Ready
+2021/10/17 10:25:37 app.go:35: API Init
+2021/10/17 10:25:39 app.go:58: Could not connect artemis
+2021/10/17 10:25:39 app.go:59: dial tcp [::1]:61613: connectex: No connection could be made because the target machine actively refused it.
+2021/10/17 10:25:39 app.go:66: Init finished in  2.861748s
+2021/10/17 10:25:39 app.go:67: API Ready
+2021/10/17 10:26:37 app.go:35: API Init
+2021/10/17 10:26:40 app.go:58: Could not connect artemis
+2021/10/17 10:26:40 app.go:59: dial tcp [::1]:61613: connectex: No connection could be made because the target machine actively refused it.
+2021/10/17 10:26:40 app.go:66: Init finished in  2.7665397s
+2021/10/17 10:26:40 app.go:67: API Ready
+2021/10/17 10:28:01 app.go:35: API Init
+2021/10/17 10:28:04 app.go:58: Could not connect artemis
+2021/10/17 10:28:04 app.go:59: dial tcp [::1]:61613: connectex: No connection could be made because the target machine actively refused it.
+2021/10/17 10:28:04 app.go:66: Init finished in  2.841512s
+2021/10/17 10:28:04 app.go:67: API Ready
+2021/10/17 10:29:36 app.go:35: API Init
+2021/10/17 10:29:39 app.go:58: Could not connect artemis
+2021/10/17 10:29:39 app.go:59: dial tcp [::1]:61613: connectex: No connection could be made because the target machine actively refused it.
+2021/10/17 10:29:39 app.go:66: Init finished in  2.7723285s
+2021/10/17 10:29:39 app.go:67: API Ready
+2021/10/17 10:30:36 app.go:35: API Init
+2021/10/17 10:30:39 app.go:58: Could not connect artemis
+2021/10/17 10:30:39 app.go:59: dial tcp [::1]:61613: connectex: No connection could be made because the target machine actively refused it.
+2021/10/17 10:30:39 app.go:66: Init finished in  2.8198757s
+2021/10/17 10:30:39 app.go:67: API Ready
+2021/10/17 10:32:36 app.go:35: API Init
+2021/10/17 10:32:39 app.go:58: Could not connect artemis
+2021/10/17 10:32:39 app.go:59: dial tcp [::1]:61613: connectex: No connection could be made because the target machine actively refused it.
+2021/10/17 10:32:39 app.go:66: Init finished in  2.7818673s
+2021/10/17 10:32:39 app.go:67: API Ready
+2021/10/17 10:36:06 app.go:35: API Init
+2021/10/17 10:36:09 app.go:58: Could not connect artemis
+2021/10/17 10:36:09 app.go:59: dial tcp [::1]:61613: connectex: No connection could be made because the target machine actively refused it.
+2021/10/17 10:36:09 app.go:66: Init finished in  2.9287343s
+2021/10/17 10:36:09 app.go:67: API Ready
+2021/10/17 10:38:00 app.go:35: API Init
+2021/10/17 10:38:03 app.go:58: Could not connect artemis
+2021/10/17 10:38:03 app.go:59: dial tcp [::1]:61613: connectex: No connection could be made because the target machine actively refused it.
+2021/10/17 10:38:03 app.go:66: Init finished in  2.7683749s
+2021/10/17 10:38:03 app.go:67: API Ready

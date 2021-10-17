@@ -1,0 +1,321 @@
+{
+	"info": {
+		"_postman_id": "adbecd7b-55d2-4f60-a49d-db94e717bf5e",
+		"name": "test API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get ALL User",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3111/user",
+					"host": [
+						"localhost"
+					],
+					"port": "3111",
+					"path": [
+						"user"
+					],
+					"query": [
+						{
+							"key": "user_name",
+							"value": "sandy",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "sandy",
+							"disabled": true
+						},
+						{
+							"key": "name",
+							"value": "sandy",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get User Detail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3111/user/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3111",
+					"path": [
+						"user",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create User",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_name\":\"sandy1\",\r\n    \"password\": \"sandy1\",\r\n    \"name\" : \"sandy1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3111/user",
+					"host": [
+						"localhost"
+					],
+					"port": "3111",
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update User",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_name\":\"sandy\",\r\n    \"password\": \"sandy\",\r\n    \"name\" : \"sandy\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3111/user/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3111",
+					"path": [
+						"user",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete User",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3111/user/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3111",
+					"path": [
+						"user",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_name\":\"sandy1\",\r\n    \"password\": \"sandy1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3111/login",
+					"host": [
+						"localhost"
+					],
+					"port": "3111",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Logout",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_name\":\"sandy\",\r\n    \"password\": \"sandy\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3111/logout",
+					"host": [
+						"localhost"
+					],
+					"port": "3111",
+					"path": [
+						"logout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Payment",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3111/payment?from&to&nominal&created_at_from&created_at_to",
+					"host": [
+						"localhost"
+					],
+					"port": "3111",
+					"path": [
+						"payment"
+					],
+					"query": [
+						{
+							"key": "from",
+							"value": null
+						},
+						{
+							"key": "to",
+							"value": null
+						},
+						{
+							"key": "nominal",
+							"value": null
+						},
+						{
+							"key": "created_at_from",
+							"value": null
+						},
+						{
+							"key": "created_at_to",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Detail Payment",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3111/payment/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3111",
+					"path": [
+						"payment",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Payment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"from\":\"sandy\",\r\n    \"to\":\"sandy\",\r\n    \"nominal\":123\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3111/payment",
+					"host": [
+						"localhost"
+					],
+					"port": "3111",
+					"path": [
+						"payment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All History",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3111/history",
+					"host": [
+						"localhost"
+					],
+					"port": "3111",
+					"path": [
+						"history"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get History Detail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3111/history/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3111",
+					"path": [
+						"history",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
